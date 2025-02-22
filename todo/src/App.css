@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(46,46,62);
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.wrapper {
+  width: 1000px;
+  height: 100vh;
+}
+
+.app-container {
+  text-align: center;
+  width: 100%;
+  max-width: 1000px;
+  background: #2e2e3e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.app-title {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.todo-box {
+  background: #3e3e4e;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btns {
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.spanBtns {
+  background-color: #0e0e17;
+  border-radius: 8px;
+  width: 700px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.spanBtns input {
+  margin-left: 20px;
+}
+
+.sidebar {
+  background: #1e1e2e;
+  padding: 10px;
+  width: 200px;
+  height: 100vh;
+  color: white;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #444;
+}
+
+.sidebar li:hover, .active-category {
+  background: #3e3e4e;
+} 
